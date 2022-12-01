@@ -1,68 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-body {
+*{
     margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
- }
-
-img {
-    height: auto;
-    width: 300px;
 }
-
-a {
-    text-decoration: none;
+/*header */
+.section-one {
+    background-color: #1f2937;
+    padding: 1em 13em;
 }
-button {
-    font-family: Roboto, sans-serif;
-    font-size: 18px;
-    color: white; 
-    border: none;
-    border-radius: 8px; /* rounded corners */
-    background: #3882f6;
-    padding: 8px 24px;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: extra-bold;
-    color: #F6FAF8;
-}
-
-.navbar,
-.content {
-    background: #1F2937;
-}
+/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 32px 96px;
-    align-items: center;
-}
-.content {
-    display: flex;
-}
-p, /*maybe in body? */
-a {
-    font-size: 18px;
-    color: #E5E7EB;
+    align-items: baseline;
 }
 
-.top-left {
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+.header-logo {
     font-size: 24px;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
-ul {
-    display: flex;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    gap: 16px;
+.secondary,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
-.navbar{
+
+/* main part of section one */
+.main {
+    padding: 7em 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-rigth {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.hero {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+button {
+    padding: 7px 1em;
+    width: 140px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.main button {
+    border: none;
+}
+
+.image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 210px;
 }
