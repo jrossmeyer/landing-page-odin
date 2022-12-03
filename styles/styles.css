@@ -9,6 +9,9 @@
 body {
     font-family: Roboto, sans-serif;
 }
+
+/* Section One */
+
 /*header */
 .section-one {
     background-color: #1f2937;
@@ -77,10 +80,50 @@ button {
     border: none;
 }
 
-.image {
+.placeholder {
     background-color: gray;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 210px;
+}
+
+/* Section Two */
+
+.section-two {
+    text-align: center;
+    
+    
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.card {
+    max-width: 200px;
+    
+    
+}
+
+.subtext {
+    color: #1f2937;
+    padding-top: 12px;
+}
+img {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color:#3882F6;
+    border-radius: 10px;
+    border-width: 4px;
+}
+
+h2 {
+    padding: 52px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
